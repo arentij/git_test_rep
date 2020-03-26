@@ -2,7 +2,7 @@ Git is a powerfull tool for keeping track of changes of your code, sharing it, c
 
 Here are some of the most used commands:
 
--- Making repositories
+-- Repositories:
 
 - to copy someone's repository 
 >> git clone <address>
@@ -55,4 +55,10 @@ REMEMBER: always pull before push
 Additional topics to read:
 -to avoid tracking some files modify file .gitignore
 -to see branches evolution in time >> git tree
--
+-to check logs >> git log
+-to see log in a nice graph >> git log --oneline --graph --decorate --all
+-to come back to an old commit check git revert 
+-to copy someone's repository to make changes use FORK'ing
+-to allow pushing without logging in every time use SSH key
+
+pereval@umd.edu
